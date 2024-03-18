@@ -1,6 +1,6 @@
 {
   "version": "3.5.0",
-  "created": "2024-03-18T19:48:18Z",
+  "created": "2024-03-18T19:52:17Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -63,20 +63,22 @@
       "path": "sitemap.xml.gz"
     },
     {
-      "path": "static\\icones\\bu.ico",
-      "old": true
+      "path": "static\\favicon.ico"
     },
     {
-      "path": "static\\icones\\bupng.png",
-      "old": true
+      "path": "static\\icones\\bu.ico"
     },
     {
-      "path": "static\\icones\\ecs.ico",
-      "old": true
+      "path": "static\\icones\\bupng.png"
     },
     {
-      "path": "static\\icones\\konekan.ico",
-      "old": true
+      "path": "static\\icones\\ecs.ico"
+    },
+    {
+      "path": "static\\icones\\konekan.ico"
+    },
+    {
+      "path": "static\\logo.png"
     }
   ]
 }

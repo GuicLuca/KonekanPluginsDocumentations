@@ -4,7 +4,7 @@ url: https://plugins.konekan.fr
 branding:
   title: Konekan 
   label: documentations
-favicon: favicon.ico
+favicon: static/favicon.ico
 links:
 - text: Portfolio
   link: https://konekan.fr
