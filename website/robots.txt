@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://plugins.konekan.fr/sitemap.xml.gz

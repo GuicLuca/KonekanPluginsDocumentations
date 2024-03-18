@@ -1,5 +1,5 @@
-input: .
-output: .retype
+input: source
+output: website
 url: https://plugins.konekan.fr
 favicon: static/icones/Konekan.ico
 branding:
