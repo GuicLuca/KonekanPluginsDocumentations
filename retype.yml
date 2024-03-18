@@ -1,0 +1,19 @@
+input: .
+output: .retype
+url: https://plugins.konekan.fr
+favicon: static/icones/Konekan.ico
+branding:
+  title: Konekan 
+  label: documentations
+links:
+- text: Portfolio
+  link: https://konekan.fr
+  icon: person
+- text: Join us on discord
+  icon: comment-discussion
+  link: https://discord.gg/8qeGBsw7gn
+- text: Marketplace
+  icon: project-symlink
+  link: https://www.unrealengine.com/marketplace/en-US/profile/Konekan
+footer:
+  copyright: "&copy; Copyright {{ year }}. All rights reserved."
