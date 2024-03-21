@@ -1,6 +1,6 @@
 {
   "version": "3.5.0",
-  "created": "2024-03-19T19:09:13Z",
+  "created": "2024-03-21T00:38:42Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -15,7 +15,11 @@
       "path": "CNAME"
     },
     {
-      "path": "entity-counting-system\\intro\\index.html"
+      "path": "entity-counting-system\\intro\\index.html",
+      "old": true
+    },
+    {
+      "path": "entitycountingsystem\\intro\\index.html"
     },
     {
       "path": "index.html"
@@ -84,7 +88,28 @@
       "path": "static\\icones\\konekan.ico"
     },
     {
+      "path": "static\\images\\avatar.jpg"
+    },
+    {
+      "path": "static\\images\\bu_featured.jpg"
+    },
+    {
+      "path": "static\\images\\ecs_featured.png"
+    },
+    {
       "path": "static\\logo.png"
+    },
+    {
+      "path": "tags\\blueprintutilities\\index.html"
+    },
+    {
+      "path": "tags\\entitycountingsystem\\index.html"
+    },
+    {
+      "path": "tags\\index.html"
+    },
+    {
+      "path": "tags\\plugins\\index.html"
     }
   ]
 }
