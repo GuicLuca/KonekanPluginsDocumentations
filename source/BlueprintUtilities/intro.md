@@ -21,10 +21,13 @@ description: Learn how to enable and start using the plugin.
 # Blueprint Utilities
 
 ||| Details
-Plugin version: v1.0.1<br>
-Last documentation update: 03/20/2024<br>
+Plugin version: v1.0.1 <br>
+Last documentation update: 03/20/2024 <br>
 |||
 
-## Prerequest
+!!! success Download and activate the BlueprintUtilities
+You can simply activate it from the Plugins page ` Settings -> Plugins -> BlueprintUtilities `.
 
-## Quick Start
+![test](../static/images/bu_plugin_activation.png)
+
+!!!

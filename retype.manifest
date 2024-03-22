@@ -1,6 +1,6 @@
 {
   "version": "3.5.0",
-  "created": "2024-03-21T00:38:42Z",
+  "created": "2024-03-22T05:53:44Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -10,6 +10,9 @@
     },
     {
       "path": "blueprintutilities\\intro\\index.html"
+    },
+    {
+      "path": "blueprintutilities\\log\\index.html"
     },
     {
       "path": "CNAME"
@@ -92,6 +95,15 @@
     },
     {
       "path": "static\\images\\bu_featured.jpg"
+    },
+    {
+      "path": "static\\images\\bu_log.png"
+    },
+    {
+      "path": "static\\images\\bu_logprofiles.png"
+    },
+    {
+      "path": "static\\images\\bu_plugin_activation.png"
     },
     {
       "path": "static\\images\\ecs_featured.png"
