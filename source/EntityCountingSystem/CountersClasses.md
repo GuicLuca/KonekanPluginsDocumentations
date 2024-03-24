@@ -52,7 +52,7 @@ Then call the `SetUpCounter` metod in your construction script by passing the re
 
 .. Or in the same way in C++ constructor method :
 
-```cpp #5,13
+```cpp #3,10-11
 // LobbyVan.h
 protected:
   TObjectPtr<UBoxComponent> Box;
