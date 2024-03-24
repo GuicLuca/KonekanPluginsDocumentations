@@ -28,6 +28,6 @@ Last documentation update: 03/20/2024 <br>
 !!! success Download and activate the BlueprintUtilities
 You can simply activate it from the Plugins page ` Settings -> Plugins -> BlueprintUtilities `.
 
-![test](../static/images/bu_plugin_activation.png)
+![](../static/images/bu_plugin_activation.png)
 
 !!!

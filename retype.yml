@@ -9,11 +9,14 @@ links:
 - text: Portfolio
   link: https://konekan.fr
   icon: person
+  target: blank
 - text: Join us on discord
   icon: comment-discussion
   link: https://discord.gg/8qeGBsw7gn
+  target: blank
 - text: Marketplace
   icon: project-symlink
   link: https://www.unrealengine.com/marketplace/en-US/profile/Konekan
+  target: blank
 footer:
   copyright: "&copy; Copyright {{ year }}. All rights reserved."
