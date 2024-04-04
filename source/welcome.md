@@ -1,6 +1,8 @@
 ---
 label: Home
 icon: home
+layout: default
+order: 1000
 ---
 
 # Welcome
@@ -9,6 +11,8 @@ Welcome to the official documentation site for all Konekan plugins. This is the 
 
 !!! :icon-discussion-closed:  Get help with our discord comunity  :icon-discussion-closed:
 If you have any questions about the documentation and wish to get help, join our Discord community by clicking on this [link](https://discord.gg/8qeGBsw7gn).
+
+[!embed  height="300" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"](https://discord.com/widget?id=1100278470036181072&theme=dark")
 !!!
 
 ### Plugins list

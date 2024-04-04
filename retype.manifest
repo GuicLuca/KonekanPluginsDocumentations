@@ -1,6 +1,6 @@
 {
   "version": "3.5.0",
-  "created": "2024-03-24T18:57:31Z",
+  "created": "2024-04-04T02:41:36Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -18,11 +18,13 @@
       "path": "blueprintutilities\\log\\index.html"
     },
     {
-      "path": "CNAME"
+      "path": "blueprintutilities\\patchnote\\index.html"
     },
     {
-      "path": "entity-counting-system\\intro\\index.html",
-      "old": true
+      "path": "blueprintutilities\\workflow\\index.html"
+    },
+    {
+      "path": "CNAME"
     },
     {
       "path": "entitycountingsystem\\counterevents\\index.html"
@@ -122,6 +124,9 @@
     },
     {
       "path": "static\\images\\bu_plugin_activation.png"
+    },
+    {
+      "path": "static\\images\\bu_workflow_lib.png"
     },
     {
       "path": "static\\images\\ecs_blueprint_parametter.png"
