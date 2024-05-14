@@ -11,7 +11,7 @@ authors:
 tags:
   - plugins
   - BlueprintUtilities
-date: 2024-03-20
+date: 2024-05-13
 description: Learn how to configure the logging system and how to use it.
 ---
 ![](../static/images/bu_log.png)
@@ -19,6 +19,18 @@ description: Learn how to configure the logging system and how to use it.
 # Logging system
 
 The logging system of BlueprintUtilities allows you to get rid of all the print string/print text in your project. Thanks to its centralized management in the project settings, you can control all your Log nodes at once. This new system also allows you to bring the power of C++ logs into your blueprint code, enabling you to create logs compatible with shipping builds without leaving blueprint.
+
+## The Log node
+
+![](../static/images/bu_blueprintnode_log.png)
+
+The `Log node` has two static input pins. The first one is a FGameplayTag selector that represent the LogProfile associated to this node, and the second one is Message pin that contain the string to print.
+
+!!!info Formatted messages
+The `Message` pin will transform any expression surounded with `{}` into an argument pin.
+!!!
+
+
 
 ## Log profiles
 
@@ -38,7 +50,14 @@ Print to Screen | Bool | Whether to print or not the message to the screen. :ico
 Prefix | FString | String to add before the message to log.
 Suffix | FString | String to add after the message to log.
 
+## Other Settings
 
+Attribute   | Type | Description
+:---   | :---: | ---:
+Display profile's name in node title | Bool | If true, the LogProfile name will be display in the node title. <br>E.g.: `Log - MyCustomLogProfile`
+Should error if no profile selected | Bool | If true, any Log node with no LogProfile selected will trigger an error during blueprint compilation.
+Log node color | FColor | The default color of the Log node.
+Disabled node color | FColor | The color of the node when his associated LogProfile is disabled.
 
 ### Log in shipping
 

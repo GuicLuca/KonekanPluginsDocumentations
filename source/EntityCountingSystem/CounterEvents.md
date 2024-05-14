@@ -12,7 +12,7 @@ image: ../static/images/ecs_featured.png
 tags:
   - plugins
   - EntityCountingSystem
-date: 2024-03-20
+date: 2024-05-13
 description: Learn how to counters broadcast events and how to bind your code to them.
 ---
 

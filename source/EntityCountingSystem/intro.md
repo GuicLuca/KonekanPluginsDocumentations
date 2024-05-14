@@ -12,7 +12,7 @@ image: ../static/images/ecs_featured.png
 tags:
   - plugins
   - EntityCountingSystem
-date: 2024-03-20
+date: 2024-05-13
 description: Learn how to enable and start using the plugin.
 ---
 
@@ -21,8 +21,8 @@ description: Learn how to enable and start using the plugin.
 # Entity Counting System
 
 ||| Details
-Plugin version: v1.0.4<br>
-Last documentation update: 01/21/2024<br>
+Plugin version: v1.0.5<br>
+Last documentation update: 05/13/2024<br>
 |||
 
 ## Plugin activation

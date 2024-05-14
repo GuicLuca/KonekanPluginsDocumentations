@@ -12,7 +12,7 @@ image: ../static/images/bu_featured.jpg
 tags:
   - plugins
   - BlueprintUtilities
-date: 2024-03-20
+date: 2024-05-13
 description: Learn how to enable and start using the plugin.
 ---
 
@@ -21,8 +21,8 @@ description: Learn how to enable and start using the plugin.
 # Blueprint Utilities
 
 ||| Details
-Plugin version: v1.0.1 <br>
-Last documentation update: 03/20/2024 <br>
+Plugin version: v2.0.0 <br>
+Last documentation update: 05/13/2024 <br>
 |||
 
 !!! success Download and activate the BlueprintUtilities

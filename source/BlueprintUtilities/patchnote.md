@@ -11,9 +11,34 @@ authors:
 tags:
   - plugins
   - BlueprintUtilities
-date: 2024-03-20
+date: 2024-05-13
 description: All last updates for each version of the plugin
 ---
+
+## V2.0
+
+===- V2.0.0
+
+[!badge variant="secondary" text="Blueprint node: 40"] &nbsp;&nbsp;&nbsp;&nbsp; [!badge variant="warning" text="Supported platforms: Lunux, Windows, Android"]
+
+General
+:   - The plugin code has been spited in submodule to allow editor and runtime features to be compiled independently.  
+    - Huge code refractoring reducing the duplicated code.
+    - Performance updates and general code cleanup.
+
+Get As System
+:   - All 37 Getters refarctored to use Kismet.
+    - Dynamic cast refarctored to use Kismet.
+    - All nodes of the module can be converted to pure/impure mode with a click in the context menu.
+    - Nodes with a target object can be converted to hard/soft pointer input type with a click in the context menu.
+
+Log System
+:   - New project settings (`Display profile's name in node title`, `Should error if no profile selected`, `Log node color`, `Disabled node color`).
+    - The Log node refarctored to use kismet.
+    - The Log node now implement a format system like the FormatText node.
+    - The Log node now change of style and title according to the selected log profile.
+
+=== 
 
 ## V1.0
 

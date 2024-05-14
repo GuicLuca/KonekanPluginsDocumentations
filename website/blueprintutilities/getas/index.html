@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.765513695847">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.768961679057">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -33,11 +33,11 @@
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../static/favicon.ico" rel="icon">
-    <link href="../../resources/css/retype.css?v=3.5.0.765513695847" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.5.0.768961679057" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.765513695847" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.768961679057" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.765513695847" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.768961679057" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -242,7 +242,7 @@
         </div>
     </div>
     <div class="mx-2">&#9679;</div>
-    <div class="flex items-center shrink-0">Published&nbsp;<span>2024-03-22</span></div>
+    <div class="flex items-center shrink-0">Published&nbsp;<span>2024-05-13</span></div>
 </div>
 
 <div class="flex mb-6">
@@ -258,10 +258,27 @@
             </svg>
         </div>
         <div class="pr-5 ml-3 w-full">
-<p>The GetAs system is a simple overload of all the getter functions in Unreal Engine that allows you to specify the return class to avoid having to cast the result of the cast every time. All the provided getters are available in both pure (outside the execution thread) and impure (within the execution thread) versions. This page list all implemented getters.</p>
+<p>The GetAs system is a simple overload of all the getter functions in Unreal Engine that allows you to specify the return class to avoid having to cast the result of the cast every time. All the provided getters are available in both pure (outside the execution thread) and impure (within the execution thread) versions. This page list all implemented getters.
+<figure class="content-center">
+    <img src="../../static/images/bu_getters_threeforms.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
         </div>
     </div>
 </div>
+<doc-anchor-target id="accessibility">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#accessibility">#</doc-anchor-trigger>
+        <span>Accessibility</span>
+    </h2>
+</doc-anchor-target>
+<p>Every node of the GetAs system allows you to convert them between pure and impure mode in the context menu. As well as the purity option, all getters that take a target as input can switch between hard and soft pointer in the same context menu.</p>
+<p><figure class="content-center">
+    <img src="../../static/images/bu_getters_contextmenu.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
 <doc-anchor-target id="implemented-getters-list">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#implemented-getters-list">#</doc-anchor-trigger>

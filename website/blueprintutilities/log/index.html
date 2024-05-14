@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.765513695847">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.768961679057">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -33,12 +33,12 @@
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../static/favicon.ico" rel="icon">
-    <link href="../../resources/css/retype.css?v=3.5.0.765513695847" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.5.0.768961679057" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.765513695847" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.768961679057" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.765513695847" data-turbo-eval="false" defer></script>
-    <script id="prism-js" data-cfasync="false" src="../../resources/js/prism.js?v=3.5.0.765513695847" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.768961679057" data-turbo-eval="false" defer></script>
+    <script id="prism-js" data-cfasync="false" src="../../resources/js/prism.js?v=3.5.0.768961679057" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -243,10 +243,40 @@
         </div>
     </div>
     <div class="mx-2">&#9679;</div>
-    <div class="flex items-center shrink-0">Published&nbsp;<span>2024-03-20</span></div>
+    <div class="flex items-center shrink-0">Published&nbsp;<span>2024-05-13</span></div>
 </div>
 
 <p>The logging system of BlueprintUtilities allows you to get rid of all the print string/print text in your project. Thanks to its centralized management in the project settings, you can control all your Log nodes at once. This new system also allows you to bring the power of C++ logs into your blueprint code, enabling you to create logs compatible with shipping builds without leaving blueprint.</p>
+<doc-anchor-target id="the-log-node">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#the-log-node">#</doc-anchor-trigger>
+        <span>The Log node</span>
+    </h2>
+</doc-anchor-target>
+<p><figure class="content-center">
+    <img src="../../static/images/bu_blueprintnode_log.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>The <code v-pre>Log node</code> has two static input pins. The first one is a FGameplayTag selector that represent the LogProfile associated to this node, and the second one is Message pin that contain the string to print.</p>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-300"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-300" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Formatted messages</h5>
+<p>The <code v-pre>Message</code> pin will transform any expression surounded with <code v-pre>{}</code> into an argument pin.</p>
+        </div>
+    </div>
+</div>
 <doc-anchor-target id="log-profiles">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#log-profiles">#</doc-anchor-trigger>
@@ -313,6 +343,45 @@
 <td style="text-align: left;">Suffix</td>
 <td style="text-align: center;">FString</td>
 <td style="text-align: right;">String to add after the message to log.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<doc-anchor-target id="other-settings">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#other-settings">#</doc-anchor-trigger>
+        <span>Other Settings</span>
+    </h2>
+</doc-anchor-target>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th style="text-align: left;">Attribute</th>
+<th style="text-align: center;">Type</th>
+<th style="text-align: right;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Display profile&#x27;s name in node title</td>
+<td style="text-align: center;">Bool</td>
+<td style="text-align: right;">If true, the LogProfile name will be display in the node title. <br>E.g.: <code v-pre>Log - MyCustomLogProfile</code></td>
+</tr>
+<tr>
+<td style="text-align: left;">Should error if no profile selected</td>
+<td style="text-align: center;">Bool</td>
+<td style="text-align: right;">If true, any Log node with no LogProfile selected will trigger an error during blueprint compilation.</td>
+</tr>
+<tr>
+<td style="text-align: left;">Log node color</td>
+<td style="text-align: center;">FColor</td>
+<td style="text-align: right;">The default color of the Log node.</td>
+</tr>
+<tr>
+<td style="text-align: left;">Disabled node color</td>
+<td style="text-align: center;">FColor</td>
+<td style="text-align: right;">The color of the node when his associated LogProfile is disabled.</td>
 </tr>
 </tbody>
 </table>

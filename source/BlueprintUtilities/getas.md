@@ -11,7 +11,7 @@ authors:
 tags:
   - plugins
   - BlueprintUtilities
-date: 2024-03-22
+date: 2024-05-13
 description: Full list of Get as getters.
 ---
 
@@ -21,7 +21,15 @@ description: Full list of Get as getters.
 
 !!!
 The GetAs system is a simple overload of all the getter functions in Unreal Engine that allows you to specify the return class to avoid having to cast the result of the cast every time. All the provided getters are available in both pure (outside the execution thread) and impure (within the execution thread) versions. This page list all implemented getters.
+![](../static/images/bu_getters_threeforms.png)
 !!!
+
+## Accessibility
+
+Every node of the GetAs system allows you to convert them between pure and impure mode in the context menu. As well as the purity option, all getters that take a target as input can switch between hard and soft pointer in the same context menu.
+
+![](../static/images/bu_getters_contextmenu.png)
+
 
 ## Implemented getters list
 

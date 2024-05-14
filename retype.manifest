@@ -1,6 +1,6 @@
 {
   "version": "3.5.0",
-  "created": "2024-04-04T02:41:36Z",
+  "created": "2024-05-14T00:27:59Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -111,7 +111,16 @@
       "path": "static\\images\\avatar.jpg"
     },
     {
+      "path": "static\\images\\bu_blueprintnode_log.png"
+    },
+    {
       "path": "static\\images\\bu_featured.jpg"
+    },
+    {
+      "path": "static\\images\\bu_getters_contextmenu.png"
+    },
+    {
+      "path": "static\\images\\bu_getters_threeforms.png"
     },
     {
       "path": "static\\images\\bu_getterslist.png"

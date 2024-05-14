@@ -12,7 +12,7 @@ image: ../static/images/ecs_featured.png
 tags:
   - plugins
   - EntityCountingSystem
-date: 2024-03-20
+date: 2024-05-13
 description: Learn how to setup your counter to make it behave like you want.
 ---
 

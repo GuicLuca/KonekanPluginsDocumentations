@@ -22,8 +22,8 @@ If you have any questions about the documentation and wish to get help, join our
 [!badge icon="tools" text="Blueprint"] &nbsp;
 [!badge icon="strikethrough" text="5.99$"] &nbsp;
 
-<p style="text-align:justify">The **BlueprintUtilities** plugin is a simple plugin aimed at bringing simplicity and comfort to the use of Blueprints for your projects. With its **GetAs** functionality, the need to tirelessly cast every object you retrieve through Unreal Engine's getters is gone. You can now directly choose the class of the actor you want to retrieve on the node itself.</p>
-<p style="text-align:justify">Another major advantage of our plugin is the fully designed **log system** to bring the power of C++ logs to Blueprints while remaining user-friendly and easy to use alone or in a team.</P>
+<p style="text-align:justify">The <b>BlueprintUtilities</b> plugin is a simple plugin aimed at bringing simplicity and comfort to the use of Blueprints for your projects. With its <b>GetAs</b> functionality, the need to tirelessly cast every object you retrieve through Unreal Engine's getters is gone. You can now directly choose the class of the actor you want to retrieve on the node itself.</p>
+<p style="text-align:justify">Another major advantage of our plugin is the fully designed <b>log system</b> to bring the power of C++ logs to Blueprints while remaining user-friendly and easy to use alone or in a team.</P>
 
 [!ref icon=":bulb:" text="Update timeline" target="_blank"](https://rb.gy/256rvi)
 
