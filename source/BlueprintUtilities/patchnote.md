@@ -19,6 +19,17 @@ description: All last updates for each version of the plugin
 
 ===- V2.0.0
 
+[!badge variant="secondary" text="Blueprint node: 51"] &nbsp;&nbsp;&nbsp;&nbsp; [!badge variant="warning" text="Supported platforms: Lunux, Windows, Android"]
+
+General
+:   - Two new modules (! runtime and 1 UncookedOnly) to support the Maths library.
+
+Math library
+:   - 11 new nodes to improve the math experience with Blueprint.
+    `Min`, `Max`, `Invert`, `Oposit`, `Spaceship operator (<=>)`, `+=`, `-=`, `*=`, `/=`, `Greater or Nearly Equal` and `Less or Nearly Equal`
+
+===- V2.0.0
+
 [!badge variant="secondary" text="Blueprint node: 40"] &nbsp;&nbsp;&nbsp;&nbsp; [!badge variant="warning" text="Supported platforms: Lunux, Windows, Android"]
 
 General

@@ -1,6 +1,6 @@
 {
   "version": "3.5.0",
-  "created": "2024-05-14T00:27:59Z",
+  "created": "2024-07-08T23:30:39Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -16,6 +16,9 @@
     },
     {
       "path": "blueprintutilities\\log\\index.html"
+    },
+    {
+      "path": "blueprintutilities\\math\\index.html"
     },
     {
       "path": "blueprintutilities\\patchnote\\index.html"
@@ -42,6 +45,9 @@
       "path": "index.html"
     },
     {
+      "path": "resources\\css\\katex.css"
+    },
+    {
       "path": "resources\\css\\retype.css"
     },
     {
@@ -51,7 +57,190 @@
       "path": "resources\\fonts\\Inter-roman-latin-var.woff2"
     },
     {
+      "path": "resources\\fonts\\KaTeX_AMS-Regular.ttf"
+    },
+    {
+      "path": "resources\\fonts\\KaTeX_AMS-Regular.woff"
+    },
+    {
+      "path": "resources\\fonts\\KaTeX_AMS-Regular.woff2"
+    },
+    {
+      "path": "resources\\fonts\\KaTeX_Caligraphic-Bold.ttf"
+    },
+    {
+      "path": "resources\\fonts\\KaTeX_Caligraphic-Bold.woff"
+    },
+    {
+      "path": "resources\\fonts\\KaTeX_Caligraphic-Bold.woff2"
+    },
+    {
+      "path": "resources\\fonts\\KaTeX_Caligraphic-Regular.ttf"
+    },
+    {
+      "path": "resources\\fonts\\KaTeX_Caligraphic-Regular.woff"
+    },
+    {
+      "path": "resources\\fonts\\KaTeX_Caligraphic-Regular.woff2"
+    },
+    {
+      "path": "resources\\fonts\\KaTeX_Fraktur-Bold.ttf"
+    },
+    {
+      "path": "resources\\fonts\\KaTeX_Fraktur-Bold.woff"
+    },
+    {
+      "path": "resources\\fonts\\KaTeX_Fraktur-Bold.woff2"
+    },
+    {
+      "path": "resources\\fonts\\KaTeX_Fraktur-Regular.ttf"
+    },
+    {
+      "path": "resources\\fonts\\KaTeX_Fraktur-Regular.woff"
+    },
+    {
+      "path": "resources\\fonts\\KaTeX_Fraktur-Regular.woff2"
+    },
+    {
+      "path": "resources\\fonts\\KaTeX_Main-Bold.ttf"
+    },
+    {
+      "path": "resources\\fonts\\KaTeX_Main-Bold.woff"
+    },
+    {
+      "path": "resources\\fonts\\KaTeX_Main-Bold.woff2"
+    },
+    {
+      "path": "resources\\fonts\\KaTeX_Main-BoldItalic.ttf"
+    },
+    {
+      "path": "resources\\fonts\\KaTeX_Main-BoldItalic.woff"
+    },
+    {
+      "path": "resources\\fonts\\KaTeX_Main-BoldItalic.woff2"
+    },
+    {
+      "path": "resources\\fonts\\KaTeX_Main-Italic.ttf"
+    },
+    {
+      "path": "resources\\fonts\\KaTeX_Main-Italic.woff"
+    },
+    {
+      "path": "resources\\fonts\\KaTeX_Main-Italic.woff2"
+    },
+    {
+      "path": "resources\\fonts\\KaTeX_Main-Regular.ttf"
+    },
+    {
+      "path": "resources\\fonts\\KaTeX_Main-Regular.woff"
+    },
+    {
+      "path": "resources\\fonts\\KaTeX_Main-Regular.woff2"
+    },
+    {
+      "path": "resources\\fonts\\KaTeX_Math-BoldItalic.ttf"
+    },
+    {
+      "path": "resources\\fonts\\KaTeX_Math-BoldItalic.woff"
+    },
+    {
+      "path": "resources\\fonts\\KaTeX_Math-BoldItalic.woff2"
+    },
+    {
+      "path": "resources\\fonts\\KaTeX_Math-Italic.ttf"
+    },
+    {
+      "path": "resources\\fonts\\KaTeX_Math-Italic.woff"
+    },
+    {
+      "path": "resources\\fonts\\KaTeX_Math-Italic.woff2"
+    },
+    {
+      "path": "resources\\fonts\\KaTeX_SansSerif-Bold.ttf"
+    },
+    {
+      "path": "resources\\fonts\\KaTeX_SansSerif-Bold.woff"
+    },
+    {
+      "path": "resources\\fonts\\KaTeX_SansSerif-Bold.woff2"
+    },
+    {
+      "path": "resources\\fonts\\KaTeX_SansSerif-Italic.ttf"
+    },
+    {
+      "path": "resources\\fonts\\KaTeX_SansSerif-Italic.woff"
+    },
+    {
+      "path": "resources\\fonts\\KaTeX_SansSerif-Italic.woff2"
+    },
+    {
+      "path": "resources\\fonts\\KaTeX_SansSerif-Regular.ttf"
+    },
+    {
+      "path": "resources\\fonts\\KaTeX_SansSerif-Regular.woff"
+    },
+    {
+      "path": "resources\\fonts\\KaTeX_SansSerif-Regular.woff2"
+    },
+    {
+      "path": "resources\\fonts\\KaTeX_Script-Regular.ttf"
+    },
+    {
+      "path": "resources\\fonts\\KaTeX_Script-Regular.woff"
+    },
+    {
+      "path": "resources\\fonts\\KaTeX_Script-Regular.woff2"
+    },
+    {
+      "path": "resources\\fonts\\KaTeX_Size1-Regular.ttf"
+    },
+    {
+      "path": "resources\\fonts\\KaTeX_Size1-Regular.woff"
+    },
+    {
+      "path": "resources\\fonts\\KaTeX_Size1-Regular.woff2"
+    },
+    {
+      "path": "resources\\fonts\\KaTeX_Size2-Regular.ttf"
+    },
+    {
+      "path": "resources\\fonts\\KaTeX_Size2-Regular.woff"
+    },
+    {
+      "path": "resources\\fonts\\KaTeX_Size2-Regular.woff2"
+    },
+    {
+      "path": "resources\\fonts\\KaTeX_Size3-Regular.ttf"
+    },
+    {
+      "path": "resources\\fonts\\KaTeX_Size3-Regular.woff"
+    },
+    {
+      "path": "resources\\fonts\\KaTeX_Size3-Regular.woff2"
+    },
+    {
+      "path": "resources\\fonts\\KaTeX_Size4-Regular.ttf"
+    },
+    {
+      "path": "resources\\fonts\\KaTeX_Size4-Regular.woff"
+    },
+    {
+      "path": "resources\\fonts\\KaTeX_Size4-Regular.woff2"
+    },
+    {
+      "path": "resources\\fonts\\KaTeX_Typewriter-Regular.ttf"
+    },
+    {
+      "path": "resources\\fonts\\KaTeX_Typewriter-Regular.woff"
+    },
+    {
+      "path": "resources\\fonts\\KaTeX_Typewriter-Regular.woff2"
+    },
+    {
       "path": "resources\\js\\config.js"
+    },
+    {
+      "path": "resources\\js\\katex.js"
     },
     {
       "path": "resources\\js\\lunr.js"
@@ -64,6 +253,9 @@
     },
     {
       "path": "resources\\js\\search.json"
+    },
+    {
+      "path": "resources\\katex.js.LICENSE.txt"
     },
     {
       "path": "resources\\lunr.js.LICENSE.txt"
@@ -117,6 +309,9 @@
       "path": "static\\images\\bu_featured.jpg"
     },
     {
+      "path": "static\\images\\bu_getters_contextmenu_sliced.png"
+    },
+    {
       "path": "static\\images\\bu_getters_contextmenu.png"
     },
     {
@@ -126,13 +321,64 @@
       "path": "static\\images\\bu_getterslist.png"
     },
     {
+      "path": "static\\images\\bu_log_sliced.png"
+    },
+    {
       "path": "static\\images\\bu_log.png"
     },
     {
       "path": "static\\images\\bu_logprofiles.png"
     },
     {
+      "path": "static\\images\\bu_math_devide.png"
+    },
+    {
+      "path": "static\\images\\bu_math_greaternequal.png"
+    },
+    {
+      "path": "static\\images\\bu_math_invert.png"
+    },
+    {
+      "path": "static\\images\\bu_math_lessnequal.png"
+    },
+    {
+      "path": "static\\images\\bu_math_max_promotions.png"
+    },
+    {
+      "path": "static\\images\\bu_math_minmax_contextmenu.png"
+    },
+    {
+      "path": "static\\images\\bu_math_minmax_promotions.png"
+    },
+    {
+      "path": "static\\images\\bu_math_minmax.png"
+    },
+    {
+      "path": "static\\images\\bu_math_multiply.png"
+    },
+    {
+      "path": "static\\images\\bu_math_nodelist.png"
+    },
+    {
+      "path": "static\\images\\bu_math_operatorequal.png"
+    },
+    {
+      "path": "static\\images\\bu_math_oposit.png"
+    },
+    {
+      "path": "static\\images\\bu_math_plus.png"
+    },
+    {
+      "path": "static\\images\\bu_math_spaceship.png"
+    },
+    {
+      "path": "static\\images\\bu_math_subtract.png"
+    },
+    {
       "path": "static\\images\\bu_plugin_activation.png"
+    },
+    {
+      "path": "static\\images\\bu_spaceship.png"
     },
     {
       "path": "static\\images\\bu_workflow_lib.png"

@@ -18,7 +18,7 @@ description: Learn how to configure the logging system and how to use it.
 
 # Logging system
 
-The logging system of BlueprintUtilities allows you to get rid of all the print string/print text in your project. Thanks to its centralized management in the project settings, you can control all your Log nodes at once. This new system also allows you to bring the power of C++ logs into your blueprint code, enabling you to create logs compatible with shipping builds without leaving blueprint.
+The logging system of Blueprint Utilities allows you to get rid of all the print string/print text in your project. Thanks to its centralized management in the project settings, you can control all your Log nodes at once. This new system also allows you to bring the power of C++ logs into your blueprint code, enabling you to create logs compatible with shipping builds without leaving blueprint.
 
 ## The Log node
 

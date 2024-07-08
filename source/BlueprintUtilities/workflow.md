@@ -23,7 +23,7 @@ description: Workflow library presentation.
 Workflow library of the BlueprintUtilities plugin is containing a list of node that help you to improve your blueprint workflow. 
 !!!
 
-=== Timed Do Once
+==- Timed Do Once
 
 The `Timed Do Once` node behave like the vanilla `Do Once` node except it allows you to give a duration after which the node will be automatically "unlock".
 
@@ -38,7 +38,7 @@ Reset [!badge variant="ghost" text="execution"]
 Duration [!badge variant="ghost" text="float:1.0f"]
 :   The perdiod to wait before "unlicking" the node.
 
-StartClosed |[!badge variant="ghost" text="bool: false"]
+StartClosed [!badge variant="ghost" text="bool: false"]
 :   If true, the node will reject the first execution. :icon-stop: The first execution will start the timer.
 
 IsTimerExecutionBased [!badge variant="ghost" text="bool: true"]
